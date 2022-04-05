@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: local('TT Supermolot Neue Expanded Extra Light'), local('TT-Supermolot-Neue-Expanded-Extra-Light'),
+        url('TTSupermolotNeue-ExpXLight/TTSupermolotNeue-ExpXLight.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpXLight/TTSupermolotNeue-ExpXLight.woff') format('woff'),
+        url('TTSupermolotNeue-ExpXLight/TTSupermolotNeue-ExpXLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  /*Foundation*/
+body{
+    margin: 0;
+    background-image: url('systems.jpeg');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    margin: 0;
+}
+
+#intro,#kpi,#input,#mental_model,#call_to_action{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/*intro*/
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-weight: 400;
+    letter-spacing: .08em;
+    font-family: TT Supermolot Neue,sans-serif;
+}
+#intro .intro_content_space{
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#intro .intro_content_space button{
+    padding: 1.5% 10% 1.5% 10%;
+    margin-top: 5%;
+    background-color: transparent;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    font-weight: lighter;
+}
+
+/*KPI section*/
+#kpi{
+    display: flex;
+    flex-direction: column;
+   
+}
+    /*KPI description section*/
+#kpi .kpi_description{
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+
+
+    font-weight: 400;
+    letter-spacing: .08em;
+    font-family: TT Supermolot Neue,sans-serif;
+}
+        /*KPI description contents*/
+#kpi .kpi_description *{
+    margin: 2.5%;
+    color: white;
+    
+}
+#kpi .kpi_description button{
+    padding: 1.5% 10% 1.5% 10%;
+    margin-top: 5%;
+    background-color: transparent;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    font-weight: lighter;
+}
+    /*Metrics*/
+.metrics{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+        /*Individual metric container*/
+.metric{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+            /*individual component in ALL metric container*/
+.metric *{
+    color: white;
+    width: 50%;
+    margin: 1%;
+
+    font-weight: 400;
+    letter-spacing: .08em;
+    font-family: TT Supermolot Neue,sans-serif;
+}
+.metric_name{
+    border-bottom: 1px white solid;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+}
+.formula{
+    margin-bottom: 10px;
+}
+.one{
+    align-items: flex-end;
+}
+.two{
+    align-items: center;
+}
+.three{
+    align-items: flex-start;
+}
+
+#input,#mental_model,#call_to_action{
+    align-self: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+
+    font-weight: 400;
+    letter-spacing: .08em;
+    font-family: TT Supermolot Neue,sans-serif;
+}
+#input button,#mental_model button,#call_to_action button{
+    align-self: center;
+    width: 50%;
+    padding: 1.5% 10% 1.5% 10%;
+    margin-top: 5%;
+    background-color: transparent;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    font-weight: lighter;
+}
+
+/*Metric section
+#kpi .metric .adjust_total_space_taken{
+    border: 1px solid green;
+    align-self: center;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.metric_name{
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: .08em;
+    font-family: TT Supermolot Neue,sans-serif;
+}
+.formula{
+    font-size: smaller;
+    font-family: TT Supermolot Neue,sans-serif;
+}
+.measurement{
+    letter-spacing: .08em;
+    font-family: TT Supermolot Neue,sans-serif;
+    transform: scaleY(1.1);
+    font-size: 30px;
+}
+*/
