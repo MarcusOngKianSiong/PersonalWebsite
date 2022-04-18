@@ -183,29 +183,4 @@ body{
     font-weight: lighter;
 }
 
-/*Metric section
-#kpi .metric .adjust_total_space_taken{
-    border: 1px solid green;
-    align-self: center;
-    width: 40%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.metric_name{
-    text-align: left;
-    font-weight: 400;
-    letter-spacing: .08em;
-    font-family: TT Supermolot Neue,sans-serif;
-}
-.formula{
-    font-size: smaller;
-    font-family: TT Supermolot Neue,sans-serif;
-}
-.measurement{
-    letter-spacing: .08em;
-    font-family: TT Supermolot Neue,sans-serif;
-    transform: scaleY(1.1);
-    font-size: 30px;
-}
-*/
+
